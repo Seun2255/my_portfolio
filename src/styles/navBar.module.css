@@ -1,0 +1,166 @@
+.body {
+  width: 100%;
+  background: #031720;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+  height: 88px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 16px 8.68%;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+
+.icon__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  width: 112px;
+  height: 56px;
+}
+
+.social__icons {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin: 0px 8px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 8.813%;
+  height: 38.01px;
+}
+
+.logo__icon {
+  width: 32.01px;
+  height: 32.01px;
+}
+
+.logo__text {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.5155px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0px 4px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  width: 310px;
+  height: 44px;
+}
+
+.navigation__text {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.down__menu {
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.menu__item {
+  color: white;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11.1427px 24px 11.1427px 15px;
+    height: 57.43px;
+    box-shadow: 0px 0.69642px 3.4821px rgba(0, 0, 0, 0.3);
+  }
+
+  .icon__box {
+    padding: 0px;
+    width: 56px;
+    height: 24px;
+  }
+
+  .social__icons {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin: 0px 4px;
+  }
+
+  .logo {
+    padding: 0px;
+    width: 61.9px;
+    height: 20.9px;
+  }
+
+  .logo__icon {
+    width: 20.9px;
+    height: 20.9px;
+  }
+
+  .logo__text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.8295px;
+    line-height: 12px;
+    color: #ffffff;
+    margin: 0px 4px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 35.14px;
+    height: 35.14px;
+  }
+
+  .navigation__img {
+    width: 24px;
+    height: 24px;
+  }
+}
