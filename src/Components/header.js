@@ -17,9 +17,9 @@ function Header() {
         then treat it with <span style={{ color: "#267DCC" }}>code</span>.
       </p>
       <p className={style.text__sub}>
-        Hi, I'm Oyewande Oluwaseun, a Frontend\Blockchain developer. I watch
-        anime and enjoy solving things i find tough. I would love to work with
-        you.
+        Hi, I'm Oyewande Oluwaseun, a Frontend\Blockchain developer. I love
+        solving puzzles and constantly seek the joy i get from solving a hard
+        problem or learning something new. I would love to work with you.
       </p>
       <Button style={mobile ? muiStyle.mobileButton : muiStyle.button}>
         <a
